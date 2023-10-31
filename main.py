@@ -29,8 +29,7 @@ def addConfigStart(file_mode):
                      """)
     
     if auto_buy.get() == True:
-        config.write("""\nalias custom1 "autobuy"\nalias custom2 "buy flashbang; buy smokegrenade; buy molotov; buy hegrenade; buy defuser"\nalias custom3 "buy flashbang; buy smokegrenade; buy molotov; buy flashbang; buy defuser"\nalias +secondarycommand "key1; key2; key3;"\nalias -secondarycommand "def1; def2; def3;"\nbind mouse4 +secondarycommand
-                     """)
+        config.write("""\nalias custom1 "autobuy"\nalias custom2 "buy flashbang; buy smokegrenade; buy molotov; buy hegrenade; buy defuser"\nalias custom3 "buy flashbang; buy smokegrenade; buy molotov; buy flashbang; buy defuser"\nalias +secondarycommand "key1; key2; key3;"\nalias -secondarycommand "def1; def2; def3;"\nbind mouse4 +secondarycommand""")
         
     config.close()
 
